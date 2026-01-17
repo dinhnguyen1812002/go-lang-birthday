@@ -16,9 +16,9 @@ func main() {
 	router.LoadHTMLGlob("templates/*")
 
 	msg := template.HTML(
-		"Gửi tôi, người vẫn luôn nỗ lực để mỉm cười mỗi ngày. <br />" +
-			"Chúc bản thân một sinh nhật tràn đầy tình yêu, niềm vui và tất cả những hạnh phúc mà tôi xứng đáng có được. <br />" +
-			"Happy new year to me!",
+		"Gửi chính tôi, người đã luôn nỗ lực mỉm cười suốt 365 ngày qua. <br />" +
+			"Mong bản thân ở tuổi này không chỉ già đi theo năm tháng, mà sẽ lớn lên cùng những trải nghiệm. Chúc tôi luôn giữ được sự tỉnh táo để chọn con đường khiến mình tự hào. <br />" +
+			"Happy birthday and a brilliant new chapter to me!",
 	)
 
 	router.GET("/", func(c *gin.Context) {
